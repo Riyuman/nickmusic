@@ -33,23 +33,23 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "🌿—————————"
+        bar = "N—————————"
     elif 10 < umm < 20:
-        bar = "—💫————————"
+        bar = "—I————————"
     elif 20 <= umm < 30:
-        bar = "——✨———————"
+        bar = "——C———————"
     elif 30 <= umm < 40:
-        bar = "———😍——————"
+        bar = "———K——————"
     elif 40 <= umm < 50:
         bar = "————💖—————"
     elif 50 <= umm < 60:
-        bar = "—————💙————"
+        bar = "—————N————"
     elif 60 <= umm < 70:
-        bar = "——————🥰———"
+        bar = "——————O———"
     elif 70 <= umm < 80:
-        bar = "———————🤗——"
+        bar = "———————A——"
     elif 80 <= umm < 95:
-        bar = "————————😇—"
+        bar = "————————H—"
     else:
         bar = "—————————🥹"
     buttons = [
@@ -102,14 +102,14 @@ def stream_markup(_, chat_id):
 
                 text="✪ʟɪꜰᴇ✪",
 
-                url=f"https://t.me/tmm_support_chat",
+                url=f"https://t.me/movie_providing_group",
 
             ),
             InlineKeyboardButton(
 
                 text="✪ᴊᴀɴɴ✪",
 
-                url=f"https://t.me/tmm_heroku_world",
+                url=f"https://t.me/movie_provider_official",
 
             ),
         ],
