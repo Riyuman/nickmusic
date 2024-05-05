@@ -39,7 +39,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Riyuman/Nobimusic",
+    "https://github.com/Riyuman/nickmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -127,11 +127,11 @@ PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/78ac6fc48e240895e5ec8.jpg"
-STATS_IMG_URL = "https://graph.org/file/6abe3a913bf645b5b89ce.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/443076090048170968b90.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/1b798dcc380d01f886d15.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1b798dcc380d01f886d15.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/1b798dcc380d01f886d15.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/1b798dcc380d01f886d15.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/0c40d1fc5f17c524a6c16.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
